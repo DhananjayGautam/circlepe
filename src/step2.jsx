@@ -63,7 +63,7 @@ const TransactionReview = () => {
         <div className="apartment-info relative">
           <h3>{property.name}</h3>
           <p>{property.location}</p>
-          <div className="absolute inset-y-0 right-0">₹ {monthlyPayment}</div>
+           <div className="relative bg-white rounded  inset-y-0 right-0 w-20 h-10">₹ {monthlyPayment}</div>
         </div>
       </div>
 
